@@ -1,0 +1,23 @@
+﻿Estimate summary
+Upfront cost,Monthly cost,Total 12 months cost,Currency
+0,10927.266,131127.19,USD
+,,* Includes upfront cost
+
+
+Detailed Estimate
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon Route 53,0,184,2208.00,USD,"Hosted Zones (1), Basic Checks Within AWS (1), Number of Elastic Network Interfaces (2)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,133.23,1598.76,USD,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),,Network Load Balancer,0,112.78999999999999,1353.48,USD,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (20 GB per hour), Average number of new TCP connections (150 per second), Average TCP connection duration (1 minutes), Average number of new TLS connections (100 per second), Average TLS connection duration (1 minutes)"
+My Estimate,US East (N. Virginia),,Amazon EC2 ,0,3734.096,44809.15,USD,"Tenancy (Shared Instances), Operating system (Linux), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month), Workload (Consistent, Number of instances: 16), Enable disabled, Advance EC2 instance (m6g.4xlarge), Pricing strategy ( 3 Year  None upfront), Snapshot Frequency (No snapshot storage)"
+My Estimate,US East (N. Virginia),,Amazon Aurora MySQL-Compatible,0,628.73,7544.76,USD,"Change records per statement (0.38), Instance Type (db.r6g.large), Nodes (2), Utilization (100 %Utilized/Month), Instance Family (Memory optimized), Pricing Model (OnDemand), Storage amount (2 TB)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,6.9,82.80,USD,S3 Standard storage (300 GB per month)
+My Estimate,US East (N. Virginia),,S3 Intelligent - Tiering,0,711.48,8537.76,USD,"S3 INT Average Object Size (16 MB), S3 INT storage (30 TB per month)"
+My Estimate,US East (N. Virginia),,VPN Connection,0,73,876.00,USD,"Working days per month (22), Number of Site-to-Site VPN Connections (2)"
+My Estimate,US East (N. Virginia),,Amazon Elastic IP,0,0,0.00,USD,"Number of EC2 instances (6), Number of EIPs per instance (1)"
+My Estimate,US East (N. Virginia),,Amazon CloudFront,0,5343.04,64116.48,USD,"Data transfer out to internet (1 TB per month), Number of requests (HTTPS) (2000 per second)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
